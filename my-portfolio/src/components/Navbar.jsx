@@ -28,7 +28,7 @@ const [visible, setVisible] = useState(true);
           font-medium shadow-lg hover:opacity-90 transition-opacity duration-300">Reach Out</a>
       </div>
     </nav>
-    <OverlayMenu/>
+    <OverlayMenu isOpen = {menuOpen} onClose = {()=> setMenuOpen(false)} />
     </>
   )
 }
