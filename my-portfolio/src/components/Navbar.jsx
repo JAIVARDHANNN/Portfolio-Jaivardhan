@@ -63,9 +63,9 @@ lastScrollY.current = currentScrollY
     <>
     <nav className={`fixed top-0 left-0 w-full flex items-center justify-between px-6 py-4 z-50 
       transition-transform duration-300 ${visible ? "translate-y-0": "-translate-y-full"}`}>
-      <div className="flex items-center ">
-         <img src={Logo} alt="Logo" className="w-8 h-8 rounded-lg" ></img>
-        <div className="text-2xl font-bold text-white hidden sm:block">Jaivardhan</div>
+      <div className="flex items-center">
+         <img src={Logo} alt="Logo" className="w-12 h-10 rounded-lg" ></img>
+        <div className="text-xl font-bold text-white hidden sm:block">Jaivardhan</div>
       </div>
       <div className="block lg:absolute lg:left-1/2 lg:transform lg:-translate-x-1/2">
         <button onClick={()=> setMenuOpen(true)} className="text-white text-3xl focus:outline-none my-11"
